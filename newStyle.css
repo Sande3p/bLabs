@@ -1,6 +1,5 @@
 
 
-
 /* HTML5 Reset style
 -----------------------------------*/
  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
@@ -1970,7 +1969,8 @@ input, input[type="password"], input[type="text"]{
 .wrapper .showcase,
 .wrapper .main,
 .wrapper #footer,
-.wrapper #header{
+.wrapper #header,
+.wrapper .singupModule{
 	-webkit-transition: -webkit-transform .3s ease-in-out;
 	-moz-transition: transform .3s ease-in-out;
 	-ms-transition: transform .3s ease-in-out;
@@ -1979,7 +1979,8 @@ input, input[type="password"], input[type="text"]{
 .motion.wrapper .showcase,
 .motion.wrapper .main,
 .motion.wrapper #footer,
-.motion.wrapper #header{
+.motion.wrapper #header,
+.motion.wrapper .singupModule{
 	-webkit-transform: translateX(-80%);
 	-moz-transform: translateX(-80%);
 	-ms-transform: translateX(-80%);
@@ -2560,7 +2561,8 @@ input, input[type="password"], input[type="text"]{
 	.randivooSection .hero .box-content{
 		width: 103%;
 		padding: 8px 0 8px 12px;
-		height: 286px;
+		height: auto;
+		min-height: 286px;
 		box-sizing: content-box;
 		color: #fffffe;
 		text-align: left;
