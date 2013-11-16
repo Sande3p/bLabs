@@ -933,9 +933,10 @@ input, input[type="password"], input[type="text"]{
 			background: url(../i/bullet.png) 0 4px no-repeat;
 			margin-bottom: 10px;
 }
+
 		section .bulletList li:nth-child(odd){
-			float: right;
-		}
+       		float: right;
+     	}
 		
 		.sectionSAM .intro .specList li.credential i{
 			background-position: -186px 0;
@@ -1121,12 +1122,14 @@ input, input[type="password"], input[type="text"]{
 	background-size: 100%;
 	overflow: hidden;
 	position:relative;
-	background: #fff;
+    background: #fff;
 }
 .singupModule.samForm{
 	background: url(../i/bg-signup-sam.jpg) 50% 0 no-repeat;
 	background-size: 100% 100%;
  	overflow: hidden;
+ 	position:relative;
+    background: #fff;
 }
 	.singupModule .contactForm{
 		background: rgba(0,0,0,0.38);
@@ -1967,7 +1970,8 @@ input, input[type="password"], input[type="text"]{
 .wrapper .showcase,
 .wrapper .main,
 .wrapper #footer,
-.wrapper #header{
+.wrapper #header,
+.wrapper .singupModule{
 	-webkit-transition: -webkit-transform .3s ease-in-out;
 	-moz-transition: transform .3s ease-in-out;
 	-ms-transition: transform .3s ease-in-out;
@@ -1976,7 +1980,8 @@ input, input[type="password"], input[type="text"]{
 .motion.wrapper .showcase,
 .motion.wrapper .main,
 .motion.wrapper #footer,
-.motion.wrapper #header{
+.motion.wrapper #header,
+.motion.wrapper .singupModule{
 	-webkit-transform: translateX(-80%);
 	-moz-transform: translateX(-80%);
 	-ms-transform: translateX(-80%);
@@ -2273,8 +2278,8 @@ input, input[type="password"], input[type="text"]{
 		line-height: 18px;
 }
 	section .bulletList li:nth-child(odd){
-		float: none;
-	}
+     	float: none;
+   	}
 	.main .aboutSection p{
 		font-size: 12px;		
 		line-height: 18px;
@@ -2557,7 +2562,8 @@ input, input[type="password"], input[type="text"]{
 	.randivooSection .hero .box-content{
 		width: 103%;
 		padding: 8px 0 8px 12px;
-		height: 286px;
+		height: auto;
+		min-height: 286px;
 		box-sizing: content-box;
 		color: #fffffe;
 		text-align: left;
@@ -3253,7 +3259,7 @@ input, input[type="password"], input[type="text"]{
 		
 			padding: 5px 0 5px;
 			height: 60px;
-			line-height: 60px;
+       		line-height: 60px;
 }
         #header .mainNav ul li a{
             
