@@ -23,7 +23,17 @@ $nav = array (
 ?>
 	<div class="wrapper">
 <nav class="slidingNav navOnly onMobi">
-		<?php wp_nav_menu ( $nav );
+<?php if ( is_front_page() ) {
+		wp_nav_menu ( $nav );
+	}else{
+		$nav = array (
+				'menu' => 'Main Navigation',
+				'menu_class'      => '',
+				'container_class' => 'menu',
+				'walker' => new nav_menu_walker () 
+		);
+		wp_nav_menu ( $nav );
+	}
 	?>
 </nav>
 		<!-- Header-->
