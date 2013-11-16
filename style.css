@@ -241,7 +241,7 @@ input, input[type="password"], input[type="text"]{
             #header .mainNav ul .wrap{
                 position: absolute;  
                 right: 0;
-                top: 85px;
+                top: 82px;
                 background: #fff url(../i/grad.png) 50% 0 no-repeat;
                 border-radius: 0 0 5px 5px;
                 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -253,8 +253,8 @@ input, input[type="password"], input[type="text"]{
             }
             #header .mainNav ul li{
                 float:left;            
-                height: 75px;
-                line-height: 74px;
+                height: 70px;
+                line-height: 70px;
             
                 margin-left: 50px;
                 text-align: center;
@@ -933,6 +933,9 @@ input, input[type="password"], input[type="text"]{
 			background: url(../i/bullet.png) 0 4px no-repeat;
 			margin-bottom: 10px;
 }
+		section .bulletList li:nth-child(odd){
+			float: right;
+		}
 		
 		.sectionSAM .intro .specList li.credential i{
 			background-position: -186px 0;
@@ -1117,6 +1120,8 @@ input, input[type="password"], input[type="text"]{
 	background: url(../i/bg-signup.jpg) 50% 0 no-repeat;
 	background-size: 100%;
 	overflow: hidden;
+	position:relative;
+	background: #fff;
 }
 .singupModule.samForm{
 	background: url(../i/bg-signup-sam.jpg) 50% 0 no-repeat;
@@ -1159,8 +1164,8 @@ input, input[type="password"], input[type="text"]{
 		text-transform: uppercase;
 }
 	.randivooSection .hero .box-content{
-		width: 592px;
-		padding: 18px;
+		width: 600px;
+		padding: 10px;
 		height: 338px;
 		box-sizing: border-box; -moz-box-sizing: border-box;
 		color: #fffffe;
@@ -2267,6 +2272,9 @@ input, input[type="password"], input[type="text"]{
 		background: url(../i/bullet.png) 0 3px no-repeat;
 		line-height: 18px;
 }
+	section .bulletList li:nth-child(odd){
+		float: none;
+	}
 	.main .aboutSection p{
 		font-size: 12px;		
 		line-height: 18px;
@@ -3244,6 +3252,8 @@ input, input[type="password"], input[type="text"]{
 			margin-left: 37px;
 		
 			padding: 5px 0 5px;
+			height: 60px;
+			line-height: 60px;
 }
         #header .mainNav ul li a{
             
@@ -3267,7 +3277,7 @@ input, input[type="password"], input[type="text"]{
         background-position: 0 -50px;
     }
     #header .mainNav ul .wrap {
-    top: 85px;
+    top: 70px;
         
     }
 
@@ -3518,7 +3528,7 @@ input, input[type="password"], input[type="text"]{
 		font-size: 30px;	
 }
 	.randivooSection .hero .box-content{
-		width: 448px;
+		width: 468px;
 		padding: 7px 0 7px 7px;
 		height: 295px;
 	
